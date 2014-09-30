@@ -1,0 +1,8 @@
+
+bin_PROGRAMS = xvirt802154
+xvirt802154_SOURCES = xvirt802154.c
+
+AM_CFLAGS = @xvirt802154_CFLAGS@
+AM_LDFLAGS = @xvirt802154_LIBS@
+
+CLEANFILES = *~ 

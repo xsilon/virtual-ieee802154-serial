@@ -132,6 +132,18 @@ it previously registered (except the one that generated the message). Thus, it
 emulates a simplistic physical layer, where there is no packet loss and no
 propagation delay.
 
+
+ Build
+------
+$ ./autogen.sh $CONFIGURE_FLAGS
+$ make
+
+
+ Install
+--------
+$ sudo make install
+
+
 Authors
 -------
 
